@@ -1,0 +1,169 @@
+body{
+    background-color: bisque;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 61px;
+    background-color: black;
+    color: azure;
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg");
+}
+
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+
+}
+
+#myProgressBar{
+    width: 80vw;
+   
+}
+
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 23px ;
+    border-radius: px;
+
+}
+
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacit 0.8s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(116, 118, 96);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links, .footer-contact, .footer-social {
+    color: antiquewhite;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links h3, .footer-contact h3, .footer-social h3 {
+    margin-bottom: 20px;
+    background-color: black;
+    color: antiquewhite;
+  }
+  
+  .footer-links ul, .footer-contact ul, .footer-social ul {
+    list-style: none;
+    color: beige;
+    padding: 0;
+   
+  
